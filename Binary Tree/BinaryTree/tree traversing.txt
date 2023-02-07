@@ -1,0 +1,20 @@
+there are two type of traverse in trees
+
+Breadth first
+level order traverse
+shalowest node = line by line
+
+Depth first
+1 inorder   (left,root,right) # value comes out ascending order
+2 pre-order (root,left,right)
+3 post-order (left,right,root) # visit leaf node first
+
+
+BinaryTree height = longest path
+1+ max(height(L) , height(R)) --> Height formula
+use post order
+visit all the leaf first
+
+
+Minimum Value in Binary BinaryTree
+post order
