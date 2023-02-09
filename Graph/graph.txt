@@ -1,0 +1,35 @@
+#graph represent connected object
+#graph consist of nodes and edges
+#tree is a kind of a graph
+#graph dnt have root node
+# node = vertex
+# if 2 node is directly connected = Adjacent
+# if graph have a direction = directed graph
+# edges also have a weight
+# weight represent how strong the connection is
+
+
+
+# represent a graph using a matrix
+
+     | jhon mary bob alic |
+jhon |   0   1    1    1  | Adjacency Matrix
+mary |   0   0    1    1  |
+bob  |   0   0    0    0  |
+alic |   0   0    1    0  |
+
+
+#  another represent of graph is Adjacency List = array of link list
+
+
+Graph
+     Note
+          label : String
+
+     addNode(label)
+     removeNode(label)
+     addEdge(from,to)
+     removeEdge(from,to)
+     print()
+          A is connected with [B,C]
+          B is connected with [A]
